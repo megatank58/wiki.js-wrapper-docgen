@@ -39,11 +39,21 @@
 	"dependencies": {
 		"eslint": "^6.3.0",
 		"js-yaml": "^3.13.1",
-		"jsdoc-to-markdown": "^5.0.1",
 		"tsubaki": "^1.3.2",
 		"yargs": "^14.0.0"
 	},
 	"engines": {
 		"node": ">=8.0.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.17.10",
+		"@babel/core": "^7.18.2",
+		"@babel/plugin-proposal-class-properties": "^7.17.12",
+		"@babel/plugin-proposal-object-rest-spread": "^7.18.0",
+		"@babel/preset-env": "^7.18.2",
+		"@babel/preset-typescript": "^7.17.12",
+		"jsdoc-babel": "^0.5.0",
+		"jsdoc-to-markdown": "^7.1.1",
+		"typescript": "^4.7.2"
 	}
 }
